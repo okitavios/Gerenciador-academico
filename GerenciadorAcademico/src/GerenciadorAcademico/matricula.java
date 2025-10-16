@@ -1,3 +1,5 @@
+package GerenciadorAcademico;
+
 public class matricula {
     private String nome;
     private int matricula;
@@ -35,3 +37,4 @@ public class matricula {
 
 
 }
+
