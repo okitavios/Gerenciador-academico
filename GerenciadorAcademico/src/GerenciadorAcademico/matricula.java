@@ -1,40 +1,31 @@
 package GerenciadorAcademico;
 
 public class matricula {
-    private String nome;
-    private int matricula;
-    private String turma;
-    private int anoLetivo;
-    private double notaMedia;
-    private String disciplina;
+    private double nota;
+    private String codigoDisciplina;
 
-    public matricula(String nome, int matricula, String turma, int anoLetivo, double notaMedia,  String disciplina) {
-        this.nome = nome;
-        this.matricula = matricula;
-        this.turma = turma;
-        this.anoLetivo = anoLetivo;
-        this.notaMedia = notaMedia;
-        this.disciplina = disciplina;
+    public matricula (double nota,  String codigoDisciplina) {
+        this.nota = nota;
+        this.codigoDisciplina = codigoDisciplina;
     }
-        public String getnome(){
-           return nome;
+        public double getnota(){
+        return nota;
         }
-        public int getmatricula(){
-        return matricula;
-        }
-        public String getturma(){
-        return turma;
-        }
-        public int getanoLetivo(){
-        return anoLetivo;
-        }
-        public double getnotaMedia(){
-        return notaMedia;
-        }
-        public String getdisciplina(){
+    public void setnota{
+        this.nota = nota;
+    }
+        public String getcodigoDisciplina(){
         return disciplina;
         }
+    public void setcodigoDisciplina(String codigoDisciplina){
+         this.codigoDisciplina = codigoDisciplina
+    }
+    @Override
+    public String toString(){
+        return codigoDisciplina + "(" + nota + ")";
+        )
 
 
 }
+
 
