@@ -14,7 +14,7 @@ public class Main {
         lista.adicionarEstudante(new Estudante(1,"Maria"));
         lista.adicionarEstudante(new Estudante(2,"João"));
         lista.adicionarEstudante(new Estudante(3,"Ana"));
-        lista.adicionarEstudante(new Estudante(4, "Diego"));
+        lista.adicionarEstudante(new Estudante(4, "Lucas"));
         lista.adicionarEstudante(new Estudante(5, "Elisa"));
         
         cadastro.adicionarDisciplina(new Disciplina("MAT101", "Matemática"));
