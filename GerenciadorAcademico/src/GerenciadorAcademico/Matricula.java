@@ -4,9 +4,9 @@ public class Matricula {
     private double nota;
     private String codigoDisciplina;
 
-    public Matricula (String codigoDisciplina,double nota) {
-        this.codigoDisciplina = codigoDisciplina;
+    public Matricula (double nota,  String codigoDisciplina) {
         this.nota = nota;
+        this.codigoDisciplina = codigoDisciplina;
     }
         public double getnota(){
         return nota;
@@ -27,4 +27,5 @@ public class Matricula {
 
     }
 }
+
 

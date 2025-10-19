@@ -17,7 +17,7 @@ public class HistoricoNotas {
     
     public void adicionarMatricula(int idEstudante, String codigoDisciplina, double nota) {
         historico.computeIfAbsent(idEstudante, k -> new ArrayList<>())
-                 .add(new Matricula(codigoDisciplina,nota));
+                 .add(new Matricula(nota,codigoDisciplina));
     }
 
     
